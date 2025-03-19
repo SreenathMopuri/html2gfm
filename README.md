@@ -17,3 +17,33 @@ You can install `html2gfm` via pip:
 
 ```bash
 pip install html2gfm
+```
+
+### Or, if installing manually:
+git clone https://github.com/yourusername/html2gfm.git
+
+cd html2gfm
+
+pip install .
+
+🚀 **Usage**
+
+## Convert HTML to GitHub Flavored Markdown
+```html
+from html2gfm import html_to_gfm
+
+html = """
+<h1>Title</h1>
+<p>This is a <b>bold</b> statement.</p>
+<img src="image.png" alt="Example Image">
+<blockquote>Important quote</blockquote>
+<pre><code>print("Hello, World!")</code></pre>
+<table>
+  <tr><th>Name</th><th>Age</th></tr>
+  <tr><td>Alice</td><td>25</td></tr>
+</table>
+"""
+
+markdown = html_to_gfm(html)
+print(markdown)
+```
