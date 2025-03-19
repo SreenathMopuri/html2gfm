@@ -20,7 +20,7 @@ pip install html2gfm
 ```
 
 ### Or, if installing manually:
-git clone https://github.com/yourusername/html2gfm.git
+[git clone https://github.com/yourusername/html2gfm.git](https://github.com/SreenathMopuri/html2gfm.git)
 
 cd html2gfm
 
